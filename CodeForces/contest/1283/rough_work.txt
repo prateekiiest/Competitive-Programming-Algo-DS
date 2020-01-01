@@ -1,0 +1,13 @@
+prob B
+
+santa = n candies
+distribute to k kids as maximally as possible
+
+maximally distribute k/2 and rest minimally.
+
+if it exceeds, then he can give away everything satisfactorily.
+
+
+prob C 
+
+
