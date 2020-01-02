@@ -1,0 +1,40 @@
+-------
+|probA|
+-------
+
+
+n = 5
+
+Player A   |  Player B
+
+2,3         |   1,4,5  
+-----------------------
+-----------------------
+A(2) | B(1)  => A {1,2,3} B {4,5}  => B wins without doubt
+A(2) | B(4) => A {2,3,4} B {1,5}
+A(2) | B(5) => A {2,3,5} B {1,4}
+-----------------------
+A(3) | B(1)
+A(3) | B(4)
+A(3) | B(5)
+
+-----------------------
+
+Condition for A to win over B if A reaches a state such that A has all cards 
+valued greater individually than those of B.
+
+Each player plays optimally, that means each player choses the maximum value card
+(best) from its deck each time, in the hope it will beat opponents card.
+
+--------------------------------------------------------------------------
+
+ -----
+|probB|
+ -----
+
+example_array
+
+A = [3,5,1,9,10]
+
+l = 0 
+r = 1
