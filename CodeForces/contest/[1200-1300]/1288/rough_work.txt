@@ -1,0 +1,20 @@
+probA.py
+
+--------
+
+n = total days
+
+x + [d/x+1] <= n
+
+x = 1,...,n-1
+Binary_Search(1...n):
+    for which value exp(x) < n
+    
+Binary_Search(1, n)
+    mid = (n+1)/2
+    x= int(mid)
+    if exp(x) <= n:
+        return x
+    el
+
+
