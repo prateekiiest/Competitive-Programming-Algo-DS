@@ -18,3 +18,17 @@ Binary_Search(1, n)
     el
 
 
+probB
+
+-------
+
+
+a + b + ab =  concat(a,b)
+
+a(1+b) + b = a(pow(10, len(b))) + b 
+
+so 1+b = pow(10, len(b))
+
+b = 1 ... B
+
+b = 9, 99, 999, ...., B
